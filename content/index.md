@@ -1,18 +1,14 @@
 ---
 title: Claude Pirates
+publish: true
 ---
 
-Welcome to Claude Pirates — a collection of notes on using Claude and AI tools.
+# Claude Pirates
 
-## Getting Started
+Your hub for running Claude Code directly inside Obsidian.
+
+## Guides
 
 - [[getting-started|Getting Started]]
-
-## Obsidian
-
-### Publish Vault
-- [[obsidian/publish-vault/skill/quartz-publisher-agent|Quartz Publisher Agent]]
-
-### Synced Vault
-- [[obsidian/synced-vault/synced-vault-skill|Synced Vault Skill]]
-- [[obsidian/synced-vault/skill/synced-vault-skill-content|Synced Vault Skill Content]]
+- [[synced-vault-guide|Synced Vault Guide]]
+- [[quartz-publisher-skill-guide|Quartz Publisher Skill Guide]]
