@@ -17,18 +17,12 @@ This skill installs and configures three Obsidian plugins that together give Cla
 
 ## Step 1 — Identify the Vault
 
-The vault is the **current working directory** where this skill is invoked. Use the current working directory as `VAULT_PATH`.
-
-Verify it looks like an Obsidian vault by checking for a `.obsidian` directory:
-
 ```bash
+VAULT_PATH="$(pwd)"
 ls -d .obsidian 2>/dev/null
 ```
 
-If `.obsidian` doesn't exist, tell the user:
-> "This folder isn't an Obsidian vault yet. Please open Obsidian → Open folder as vault → select this directory, then run this skill again."
-
-## Step 2 — Install and Enable the Plugins
+## Step 2 — Install Plugins
 
 ```bash
 obsidian vault=<VaultName> plugin:install id=obsidian-local-rest-api enable
@@ -36,9 +30,9 @@ obsidian vault=<VaultName> plugin:install id=obsidian-smart-connections enable
 obsidian vault=<VaultName> plugin:install id=mcp-tools enable
 ```
 
-**Restart Obsidian after install** — the Local REST API plugin generates its key on load.
+Restart Obsidian after install.
 
-## Step 3 — Retrieve the API Key
+## Step 3 — Get API Key
 
 ```bash
 cat "$VAULT_PATH/.obsidian/plugins/obsidian-local-rest-api/data.json" \
@@ -58,20 +52,15 @@ Expected: `"authenticated": true`
 ```json
 "obsidian-mcp-tools": {
   "command": "<VAULT_PATH>/.obsidian/plugins/mcp-tools/bin/mcp-server",
-  "env": {
-    "OBSIDIAN_API_KEY": "<API_KEY>"
-  }
+  "env": { "OBSIDIAN_API_KEY": "<API_KEY>" }
 }
 ```
 
 ## Step 6 — Web Exposure (Optional)
 
-Ask the user first. If yes:
-
 ```bash
 OBSIDIAN_API_KEY=<API_KEY> npx -y supergateway \
-  --stdio "<VAULT_PATH>/.obsidian/plugins/mcp-tools/bin/mcp-server" \
-  --port 8765
+  --stdio "<VAULT_PATH>/.obsidian/plugins/mcp-tools/bin/mcp-server" --port 8765
 
 ssh -R 80:localhost:8765 localhost.run 2>&1 | tee /tmp/lhr_tunnel.txt &
 sleep 10 && grep -oE 'https://[a-z0-9]+\.lhr\.life' /tmp/lhr_tunnel.txt | tail -1
