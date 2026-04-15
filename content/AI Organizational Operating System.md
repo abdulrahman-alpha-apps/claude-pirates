@@ -1,8 +1,8 @@
 ---
 publish: true
 title: AI Organizational Operating System
-created: 2026-04-15T14:07:20.503+03:00
-modified: 2026-04-15T14:07:20.504+03:00
+created: 2026-04-15T14:12:23.911+03:00
+modified: 2026-04-15T14:12:23.913+03:00
 ---
 
 # AI Organizational Operating System
@@ -117,7 +117,7 @@ This is the compounding effect that most AI tools miss. Value builds over time b
 
 ## In One Sentence
 
-An AI Organizational Operating System turns your team's knowledge into a shared foundation that your automations run on, your whole team can see, and every workflow makes more powerful over time.
+An AI Organizational Operating System turns your team's knowledge into a shared foundation that your agentic workflows — coding, project management, product management, and more — run on top of, your whole team can see, and every contribution makes more powerful over time.
 
 ---
 
