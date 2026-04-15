@@ -2,7 +2,7 @@
 publish: true
 title: Getting Started
 created: 2026-04-14T17:37:27.563+03:00
-modified: 2026-04-15T13:27:37.689+03:00
+modified: 2026-04-15T14:33:20.723+03:00
 ---
 
 ## Welcome
@@ -65,8 +65,8 @@ Once Claude is running, you can use the skills in this vault:
 
 | Skill | What it does | Guide |
 |-------|-------------|-------|
-| **synced-vault** | Connect your vault to Claude via MCP — lets Claude work directly with your project documents and vault files | [[Synced Vault Guild]] |
-| **quartz-publisher** | Publish your vault as a live website on GitHub Pages | [[Quartz Publisher Skill Guide]] |
+| **synced-vault** | Connect your vault to Claude via MCP — lets Claude work directly with your project documents and vault files | [[Synced Vault Guild (MCP)]] |
+| **quartz-publisher** | Publish your vault as a live website on GitHub Pages | [[Quartz Publisher Skill Guide (Web Publishing)]] |
 
 > [!Tip]
 > Start with **synced-vault** if you haven't set up MCP yet — quartz-publisher works best when the Local REST API plugin is already running.
