@@ -2,7 +2,7 @@
 publish: true
 title: Synced Vault Guide
 created: 2026-04-14T17:37:34.977+03:00
-modified: 2026-04-15T13:27:44.946+03:00
+modified: 2026-04-15T14:22:52.033+03:00
 ---
 
 ## What This Skill Does
@@ -37,7 +37,7 @@ Attach the skill content to Claude Code, or copy it manually, using the prompt b
 The skill file is here: [[Synced Vault Skill content]]
 
 > [!Prompt]
-> Install this skill globally
+> Install this skill globally  "https://github.com/abdulrahman-alpha-apps/claude-pirates/blob/v4/content/Obsidian/Skills/Synced%20Vault/Synced%20Vault%20Skill%20content.md"
 
 ---
 
@@ -47,6 +47,11 @@ Open Obsidian → open the Terminal plugin → run Claude Code inside your vault
 
 > [!Prompt]
 > Run synced-vault skill in this directory
+
+or
+
+> \[! /slash command ]
+> /synced-vault
 
 Claude will install the plugins, retrieve the API key, verify the connection, and give you the MCP config for Claude Desktop.
 
