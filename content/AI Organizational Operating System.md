@@ -1,13 +1,13 @@
 ---
 publish: true
 title: AI Organizational Operating System
-created: 2026-04-15T13:55:37.649+03:00
-modified: 2026-04-15T13:55:37.649+03:00
+created: 2026-04-15T14:07:20.503+03:00
+modified: 2026-04-15T14:07:20.504+03:00
 ---
 
 # AI Organizational Operating System
 
-> **One place where your team's knowledge lives, your automations run on top of it, and everyone can see and build on what's there.**
+> **One place where your team's knowledge lives, your agentic workflows run on top of it, and everyone can see and build on what's there.**
 
 ---
 
@@ -56,6 +56,27 @@ Every automation, every agent, every workflow is stored as a plain file in the s
 - Reuse and adapt it for a new purpose
 
 Nothing disappears into a private chat. Everything is visible, editable, and owned by the team.
+
+---
+
+## Agentic Workflows Built on Top
+
+The knowledge hub is not just a place to store information. It is the foundation that makes powerful agentic workflows possible.
+
+Because your agents have access to structured, up-to-date knowledge about your product, your team, and your processes, you can build workflows that go far beyond simple automation — workflows that understand context, make decisions, and handle entire domains of work.
+
+**Agentic Coding**
+Agents that understand your codebase standards, your technical requirements, and your product specs. They can generate code that fits your architecture, write tests against real requirements, review pull requests against your own conventions, and keep technical documentation in sync with what's actually built.
+
+**Agentic Project Management**
+Agents that understand your project structure, your team's priorities, and your delivery process. They can break down features into tasks, track progress against specs, flag blockers, and generate status updates — all grounded in the actual knowledge your team has captured.
+
+**Agentic Product Management**
+Agents that understand your product vision, your user context, and your roadmap. They can turn rough ideas into structured specs, identify gaps between requirements and implementation, draft customer-facing content, and keep product documentation consistent across every stage.
+
+Each of these workflows gets more powerful over time — because every spec, decision, guide, and operational note your team adds to the hub makes the agents more accurate, more context-aware, and more useful.
+
+This is the core idea: **the knowledge hub is the foundation, and agentic workflows are what you build on top of it.**
 
 ---
 

@@ -2,7 +2,7 @@
 publish: true
 title: Quartz Publisher Skill Guide
 created: 2026-04-14T17:37:39.622+03:00
-modified: 2026-04-15T13:26:03.500+03:00
+modified: 2026-04-15T14:07:19.433+03:00
 ---
 
 ## What This Skill Does
