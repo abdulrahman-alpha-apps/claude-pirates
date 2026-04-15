@@ -2,14 +2,20 @@
 publish: true
 title: Getting Started
 created: 2026-04-14T17:37:27.563+03:00
-modified: 2026-04-14T17:37:27.564+03:00
+modified: 2026-04-15T13:27:37.689+03:00
 ---
 
 ## Welcome
 
+This vault will help you get helpful resources about Claude code.
+
 This vault is your hub for running **Claude Code** directly inside Obsidian. From here you can set up MCP integration, publish your vault to the web, and run AI-powered skills without leaving Obsidian.
 
+Claude Code is valuable here not just as a chat interface, but as an **agentic coding environment** for building and running repeatable agents. That means you can create focused workflows that save hours, perform specific tasks, and operate directly on your project files, documents, guides, specifications, and prompts.
+
 ---
+
+After installing Obsidian
 
 ## Step 1 — Install the Terminal Plugin
 
@@ -46,6 +52,11 @@ In the terminal, navigate to your vault directory (if not already there), then s
 
 Claude Code will launch inside the terminal. You're now running AI directly inside Obsidian.
 
+In practice, that means you can use Claude as both:
+
+- an agent that helps you work inside the vault right now
+- a system for building reusable agents, skills, and workflows that read project information, use MCP-connected tools, create files, and automate future tasks
+
 ---
 
 ## What to Do Next
@@ -54,8 +65,10 @@ Once Claude is running, you can use the skills in this vault:
 
 | Skill | What it does | Guide |
 |-------|-------------|-------|
-| **synced-vault** | Connect your vault to Claude via MCP — lets Claude read and write your notes | [[Synced Vault Guild]] |
+| **synced-vault** | Connect your vault to Claude via MCP — lets Claude work directly with your project documents and vault files | [[Synced Vault Guild]] |
 | **quartz-publisher** | Publish your vault as a live website on GitHub Pages | [[Quartz Publisher Skill Guide]] |
 
 > [!Tip]
 > Start with **synced-vault** if you haven't set up MCP yet — quartz-publisher works best when the Local REST API plugin is already running.
+
+The bigger idea is that this vault is not just a place to store notes. It is a place to build a reusable AI operating system where project information, automations, skills, prompts, MCP-connected tools, and task-specific agents all live together.

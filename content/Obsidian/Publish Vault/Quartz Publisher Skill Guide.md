@@ -2,7 +2,7 @@
 publish: true
 title: Quartz Publisher Skill Guide
 created: 2026-04-14T17:37:39.622+03:00
-modified: 2026-04-14T17:37:39.622+03:00
+modified: 2026-04-15T13:26:03.500+03:00
 ---
 
 ## What This Skill Does
@@ -10,6 +10,8 @@ modified: 2026-04-14T17:37:39.622+03:00
 The **quartz-publisher** skill takes your Obsidian vault and publishes it as a live public website using [Quartz](https://quartz.jzhao.xyz) and GitHub Pages — fully automated.
 
 It handles everything: creating the GitHub repo, configuring the deploy pipeline, installing the sync plugin, and pushing all your notes live. You end up with a URL like `https://your-username.github.io/your-repo/`.
+
+This also shows the deeper value of Claude Code: it can act like a specialized agent for a defined job. Instead of manually repeating a long publishing process, you use a reusable workflow that saves hours and can be improved over time.
 
 ---
 
@@ -43,6 +45,8 @@ Open Obsidian → open the Terminal plugin → run Claude Code inside your vault
 
 Replace `my-garden` with any lowercase-hyphenated name you want for your GitHub repo.
 
+This is Claude Code working as an agent system, not just a chat tool. The process becomes a repeatable publishing agent that can be shared, reused, and adapted.
+
 ---
 
 ## What You'll Need to Do (Manual Steps)
@@ -65,6 +69,7 @@ Everything else is automated.
 - All vault notes pushed to the site
 - A GitHub repo with automatic redeploy on every push
 - An ongoing sync command — just say **"sync"** to push new or updated notes
+- A reusable publishing agent workflow that can be used again in future vaults
 
 ---
 
