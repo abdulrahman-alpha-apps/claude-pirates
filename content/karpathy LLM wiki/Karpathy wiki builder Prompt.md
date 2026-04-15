@@ -1,8 +1,11 @@
 ---
 publish: true
 created: 2026-04-15T13:48:18.235+03:00
-modified: 2026-04-15T14:10:46.987+03:00
+modified: 2026-04-15T14:29:55.348+03:00
 ---
+
+> [!Prompt]
+> Copy the following prompt to start using it and paste it into your Claude code or Codex.
 
 You are an LLM Wiki Maintainer.
 
